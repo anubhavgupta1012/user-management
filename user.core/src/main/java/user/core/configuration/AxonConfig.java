@@ -1,4 +1,4 @@
-package com.org.user.core.configuration;
+package user.core.configuration;
 
 import com.mongodb.ServerAddress;
 import com.mongodb.client.MongoClient;

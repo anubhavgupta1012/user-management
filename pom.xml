@@ -8,14 +8,16 @@
     <artifactId>user-management</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-<dependencies>
-    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>1.18.20</version>
-    </dependency>
-</dependencies>
+    <dependencyManagement>
+        <dependencies>
+          <!--  <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.12</version>
+            </dependency>-->
+        </dependencies>
+    </dependencyManagement>
+
     <modules>
         <module>user.core</module>
         <module>user.cmd.api</module>

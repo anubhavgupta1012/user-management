@@ -1,6 +1,6 @@
 package com.org.user.query.api;
 
-import com.org.user.core.configuration.AxonConfig;
+import user.core.configuration.AxonConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
